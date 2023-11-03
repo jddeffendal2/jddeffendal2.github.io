@@ -1,4 +1,8 @@
 <script setup>
+  import eyeTrackingQuestion from "@/assets/eyeTrackingQuestion.png";
+  import movieRentalImage from "@/assets/movieRentalImage.png";
+  import movieShoppingCart from "@/assets/movieShoppingCart.png";
+  import noWebcamQuestion from "@/assets/noWebcamQuestion.png";
 </script>
 
 <template>
@@ -49,8 +53,8 @@ software as a part of a team.
         The application lets instructors create multiple types of referee training video quizzes for students to take, including eye-tracking quizzes, word-bank quizzes, and simple predict the foul call quizzes. 
         <br/><br/>I worked on many parts of the project in both the front-end and back-end. For one of my tasks of the project, I implemented an open-source eye-tracking library that was used to evaluate if the referee trainee is effectively learning how to referee by actually watching the play correctly and not just guessing. (achieved through the use of the user's webcam)
       </p>
-      <img src="src/assets/eyeTrackingQuestion.png" width="400"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="src/assets/noWebcamQuestion.png" height="214" width="400">
+      <img :src="eyeTrackingQuestion" width="400"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img :src="noWebcamQuestion" height="214" width="400">
       <br/><br/>
       <p class="divSmallTitles">
         Other Projects:
@@ -62,8 +66,8 @@ software as a part of a team.
         Tech-stack: Javascript, HTML, CSS, PHP, WAMPServer <br/><br/>
         Github Link: Private Repository (unable to share link)<br/><br/>
 
-        <img src="src/assets/movieRentalImage.png" height="214" width="400"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="src/assets/movieShoppingCart.png" height="214" width="400">
+        <img :src="movieRentalImage" height="214" width="400"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img :src="movieShoppingCart" height="214" width="400">
       </p>
       <br/>
       <p class="divSmallTitles">Vessel AIS Website</p>
