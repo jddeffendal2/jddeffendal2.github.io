@@ -1,27 +1,21 @@
 <template>
+  <div>
     <MyPortfolio />
+  </div>
 </template>
 
 <script setup>
 import MyPortfolio from './components/MyPortfolio.vue'
 </script>
 
-<style scoped>
-/* header {
-  line-height: 1.5;
-} */
+<style>
 
-/* @media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-} */
+#app{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #edfff3;
+}
+body {
+  display: flex;
+  margin: 0;
+}
 </style>
