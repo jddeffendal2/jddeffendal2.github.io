@@ -142,20 +142,20 @@ software as a part of a team.
     color: #0ead83;
     font-size: 70px;
     text-shadow: lightgray 2px 2px;
-    margin-left: 160px;
+    margin-left: 10%;
   }
   .divHeaders{
     color: #0ead83;
     font-size: 40px;
     text-shadow: lightgray 2px 2px;
-    margin-left: 160px;  
+    margin-left: 10%;  
   }
   .email {
     display: inline;
     font-size: 18px;
     color: gray;
     font-weight: bold;
-    margin-left: 160px;
+    margin-left: 10%;
   }
   .phoneNumber {
     display: inline;
@@ -166,18 +166,18 @@ software as a part of a team.
   .summary {
     color: #595c5b;
     font-size: 18px;
-    margin-left: 160px;
-    margin-right: 160px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .projectDescription, .aboutMeDescription  {
     color: #595c5b;
     font-size: 18px;
-    margin-right: 120px;
+    margin-right: 10%;
   }
 
   .highSchool, .college, .projects, .mySkills, .aboutMe {
-    margin-left: 160px;
+    margin-left: 10%;
   }
   .schoolTitle{
     display: inline;
@@ -200,7 +200,7 @@ software as a part of a team.
     color: #0ead83;
   }
   .socialLink {
-    margin-left: 160px;
+    margin-left: 10%;
     text-decoration: underline;
     font-weight: bold;
     color: gray;
