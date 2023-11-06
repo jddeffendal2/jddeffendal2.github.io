@@ -9,8 +9,7 @@
   <div class="mainDiv"> 
     <div class="header" id="intro">
       <h1 class="nameHeader">Jeremiah Deffendall</h1>
-      <p class="email">jeremiah.deffendall@gmail.com &#x2022;</p> 
-      <p class="phoneNumber"> (765) 228-9183</p>
+      <div class="email">jeremiah.deffendall@gmail.com &#x2022; <p class="phoneNumber"> (765) 228-9183</p></div> 
       <br/><br/><br/><br/>
       <p class="summary"> I am a software developer with a BS Computer Science degree from Ball State University.
         I have great front-end and back-end development skills and I am seeking a software
@@ -156,7 +155,6 @@
     margin-left: 10%;  
   }
   .email {
-    display: inline;
     font-size: 1.2rem;
     color: gray;
     font-weight: bold;

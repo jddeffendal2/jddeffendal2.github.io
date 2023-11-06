@@ -1,45 +1,63 @@
-<script setUp></script>
-
 <template>
     <div class="nav">
-        <nav class="nav-bar">
-            <ul>
-                <div class="flexStart">
-                    <li><a href="#intro" class="active">Introduction</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#aboutMe">About Me</a></li>
-                    <li><a href="#socialLinks">Social Links</a></li>
-                </div>
-                <li class="flexEnd"><a href="" id="threeLines">
-                        &equiv;
-                    </a>
-                </li>
-            </ul>
+        <nav class="nav-bar" v-if="!isActive">
+            <div class="flexStart">
+                <a href="" id="threeLines" @click="openNavbar">
+                    &equiv;
+                </a>
+            </div>
+            <div class="flexMiddle">
+                <a href="#intro" class="active">Introduction</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#aboutMe">About Me</a>
+                <a href="#socialLinks">Social Links</a>
+            </div>
+            <div class="flexEnd"></div>
+        </nav>
+        <nav class="expandedNavbar" v-else>
+            <p> hello</p>
         </nav>
     </div>
 </template>
 
+<script setup>
+import { ref } from "vue";
+
+ const isActive = ref(false);
+
+
+const openNavbar = function () {
+    isActive.value = true;
+}
+
+    
+</script>
+
 <style scoped>
 .nav-bar {
-    background-color: lightgray;
+    background-color: #0ead83;
     box-shadow: 0 1px 1px lightgray;
     height: 60px;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 8px 24px;
     position: fixed;
     top: 0;
     width: 100%;
     display: flex;
+    gap: 0;
 }
 
-.nav-bar .icon {
-    display: none;
-}
-
-.nav-bar ul {
-    list-style: none;
+.expandedNavbar {
+    background-color: #0ead83;
+    box-shadow: 0 1px 1px lightgray;
+    height: 100px;
+    border-radius: 10px;
+    padding: 8px 24px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .flexStart { 
@@ -49,22 +67,31 @@
     justify-content: flex-start;
 }
 
-.flexEnd {
+.flexMiddle {
     align-content: center;
     align-items: center;
     display: flex;
     justify-content: center;
+  }
+.flexEnd {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
 }
 .nav-bar a {
-    /* float: left; */
-    /* display: block; */
+    display: block;
     padding: 8px 16px;
     text-decoration: none;
     font-weight: bold;
-    color: #0ead83;
+    color: #edfff3;
 }
+
+a:hover {
+    color: gray;
+}
+
 #threeLines {
-    /* font-size:20px; */
     transform: scale(1.8, 1.5);
     visibility: hidden;
 }
