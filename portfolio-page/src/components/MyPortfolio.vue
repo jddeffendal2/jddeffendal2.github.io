@@ -217,10 +217,6 @@
     text-shadow: 1px 1px 1px lightgray;
   }
 
-  img {
-    width: 75%;
-    height: 75%;
-  }
 
   @media screen and (max-width: 1024px) {
     .nameHeader {
@@ -239,11 +235,15 @@
   .nameHeader {
         font-size: 3rem;
     }
+    img {
+      width: 75%;
+      height: 75%;
+    } 
 
   }
 
   @media screen and (max-width: 480px) {
-  .nameHeader {
+    .nameHeader {
         font-size: 2.5rem;
     }
   }
