@@ -140,41 +140,41 @@
     margin-top: 85px;
   }
   .header, .education, .experience, .skills, .interests, .links {
-    border-bottom: 1px solid #0ead83;
+    border-bottom: 1px solid #CC998D;
   }
   .nameHeader {
-    color: #0ead83;
+    color: #429EA6;
     font-size: 4.8rem;
     text-shadow: lightgray 2px 2px;
     margin-left: 10%;
   }
   .divHeaders{
-    color: #0ead83;
+    color: #429EA6;
     font-size: 3rem;
     text-shadow: lightgray 2px 2px;
     margin-left: 10%;  
   }
   .email {
     font-size: 1.2rem;
-    color: gray;
+    color: #CC998D;
     font-weight: bold;
     margin-left: 10%;
   }
   .phoneNumber {
     display: inline;
     font-size: 1.2rem;
-    color:#0ead83;
+    color: #429EA6;
     font-weight: bold;
   }
   .summary {
-    color: #595c5b;
+    color: #153B50;
     font-size: 1.2rem;
     margin-left: 10%;
     margin-right: 10%;
   }
 
   .projectDescription, .aboutMeDescription  {
-    color: #595c5b;
+    color: #153B50;
     font-size: 1.2rem;
     margin-right: 10%;
   }
@@ -186,22 +186,22 @@
     display: inline;
     font-weight: bold;
     font-size: 1.2rem;
-    color: #0ead83;
+    color: #CC998D;
   }
   .educationInfo, .skillsList, .aboutMeLIst {
     font-weight: bold;
-    color: gray;
+    color: #879C9A;
   }
   .divSmallTitles {
     font-weight: bold;
     font-size: 1.2rem;
-    color: #0ead83;
+    color: #CC998D;
   }
   .socialLink {
     margin-left: 10%;
     text-decoration: underline;
     font-weight: bold;
-    color: gray;
+    color: #879C9A;
   }
   .socialLink:hover {
     text-shadow: 1px 1px 1px lightgray;
@@ -209,7 +209,7 @@
   .socialLink2 {
     text-decoration: underline;
     font-weight: bold;
-    color: gray;
+    color: #879C9A;
   }
   .socialLink2:hover {
     text-shadow: 1px 1px 1px lightgray;

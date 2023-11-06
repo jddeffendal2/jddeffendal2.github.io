@@ -14,7 +14,7 @@ import Navbar from './components/Navbar.vue'
 
 #app{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #edfff3;
+  background-color: #ECEBE4;
 }
 body {
   display: flex;

@@ -37,7 +37,7 @@ const openNavbar = function () {
 
 <style scoped>
 .nav-bar {
-    background-color: #0ead83;
+    background-color: #CC998D;
     box-shadow: 0 1px 1px lightgray;
     height: 60px;
     border-radius: 10px;
@@ -84,11 +84,11 @@ const openNavbar = function () {
     padding: 8px 16px;
     text-decoration: none;
     font-weight: bold;
-    color: #edfff3;
+    color: #ECEBE4;
 }
 
 a:hover {
-    color: gray;
+    color: #879C9A;
 }
 
 #threeLines {
