@@ -8,9 +8,10 @@
 <template>
   <div class="mainDiv"> 
     <div class="header" id="intro">
+      <br/><br/>
       <h1 class="nameHeader">Jeremiah Deffendall</h1>
       <div class="email">jeremiah.deffendall@gmail.com &#x2022; <p class="phoneNumber"> (765) 228-9183</p></div> 
-      <br/><br/><br/><br/>
+      <br/><br/>
       <p class="summary"> I am a software developer with a BS Computer Science degree from Ball State University.
         I have great front-end and back-end development skills and I am seeking a software
         development position. I have previous experience with communicating and developing
@@ -19,6 +20,7 @@
       <br/><br/><br/><br/>
     </div>
     <div class="education" id="education">
+      <br/><br/>
       <h1 class="divHeaders">Education</h1>
       <div class="highSchool">
         <p class="schoolTitle">Monroe Central Jr./Sr. High School &nbsp;&nbsp;&nbsp;&nbsp;(August 2015 - May 2019)</p>
@@ -41,6 +43,7 @@
       <br/><br/><br/><br/>
     </div>
     <div class="experience" id="projects">
+      <br/><br/>
       <h1 class="divHeaders">My Projects</h1>
       <div class="projects">
         <p class="divSmallTitles">
@@ -83,6 +86,7 @@
       <br/><br/><br/><br/>
     </div>
     <div class="skills" id="skills">
+      <br/><br/>
       <h1 class="divHeaders">Skills</h1>
       <div class="mySkills">
         <p class="divSmallTitles">Languages/Frameworks</p>
@@ -113,6 +117,7 @@
       </div>
     </div>
     <div class="interests" id="aboutMe">
+      <br/><br/>
       <h1 class="divHeaders">About Me</h1>
       <div class="aboutMe">
         <div class="divSmallTitles">Interests</div>
@@ -127,6 +132,7 @@
       </div>
     </div>
     <div class="links" id="socialLinks">
+      <br/><br/>
       <h1 class="divHeaders">Social Links</h1>
       <a class="socialLink" href="https://github.com/jddeffendal2">Github</a> <br/>
       <a class="socialLink" href="https://www.linkedin.com/in/jeremiah-deffendall/">LinkedIn</a>
@@ -155,27 +161,27 @@
     margin-left: 10%;  
   }
   .email {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #CC998D;
     font-weight: bold;
     margin-left: 10%;
   }
   .phoneNumber {
     display: inline;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #429EA6;
     font-weight: bold;
   }
   .summary {
-    color: #153B50;
-    font-size: 1.2rem;
+    color: #879C9A;
+    font-size: 1.1rem;
     margin-left: 10%;
     margin-right: 10%;
   }
 
   .projectDescription, .aboutMeDescription  {
-    color: #153B50;
-    font-size: 1.2rem;
+    color: #879C9A;
+    font-size: 1.1rem;
     margin-right: 10%;
   }
 
@@ -185,7 +191,7 @@
   .schoolTitle{
     display: inline;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #CC998D;
   }
   .educationInfo, .skillsList, .aboutMeLIst {
@@ -194,7 +200,7 @@
   }
   .divSmallTitles {
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #CC998D;
   }
   .socialLink {
