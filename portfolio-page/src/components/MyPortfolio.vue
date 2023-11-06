@@ -217,6 +217,11 @@
     text-shadow: 1px 1px 1px lightgray;
   }
 
+  img {
+    width: 75%;
+    height: 75%;
+  }
+
   @media screen and (max-width: 1024px) {
     .nameHeader {
       font-size: 4.5rem;
