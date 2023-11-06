@@ -17,7 +17,7 @@
         development position. I have previous experience with communicating and developing
         software as a part of a team.
       </p>
-      <br/><br/><br/><br/>
+      <br/><br/><br/><br/><br/><br/><br/><br/>
     </div>
     <div class="education" id="education">
       <br/><br/>
@@ -115,13 +115,14 @@
           <li>IntelliJ IDEA</li>
         </ul>
       </div>
+      <br/><br/><br/><br/>
     </div>
     <div class="interests" id="aboutMe">
       <br/><br/>
       <h1 class="divHeaders">About Me</h1>
       <div class="aboutMe">
         <div class="divSmallTitles">Interests</div>
-        <p class="aboutMeDescription">In my freetime, I enjoy writing code, exercising, playing video games, and playing basketball.</p>
+        <p class="aboutMeDescription">In my freetime, I enjoy writing code, exercising, playing video games, and playing basketball.</p><br/>
         <div class="divSmallTitles">Awards</div>
         <ul class="aboutMeLIst">
           <li>Valedictorian at Monroe Central High School</li>
@@ -130,13 +131,14 @@
           <li>Indiana and Global Seal of Biliteracy (English and Spanish)</li>
         </ul>
       </div>
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/>
     </div>
     <div class="links" id="socialLinks">
-      <br/><br/>
+      <br/><br/><br/><br/><br/><br/><br/>
       <h1 class="divHeaders">Social Links</h1>
       <a class="socialLink" href="https://github.com/jddeffendal2">Github</a> <br/>
       <a class="socialLink" href="https://www.linkedin.com/in/jeremiah-deffendall/">LinkedIn</a>
-      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     </div>
   </div>
 </template>
