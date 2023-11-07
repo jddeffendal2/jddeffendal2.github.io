@@ -27,7 +27,7 @@
         <div class="educationInfo">
           <p>Valedictorian</p>
           <p>GPA: </p>
-          <p>Indiana Core 40 With Academic Honoss</p>
+          <p>Indiana Core 40 With Academic Honors</p>
         </div>
       </div>
       <br/><br/>
@@ -54,7 +54,8 @@
           We developed a full-stack web application with the goal to improve the efficiency and effectiveness of referee training through video quizzes uploaded by instructors.
 
           The application lets instructors create multiple types of referee training video quizzes for students to take, including eye-tracking quizzes, word-bank quizzes, and simple predict the foul call quizzes. 
-          <br/><br/>I worked on many parts of the project in both the front-end and back-end. For one of my tasks of the project, I implemented an open-source eye-tracking library that was used to evaluate if the referee trainee is effectively learning how to referee by actually watching the play correctly and not just guessing. (achieved through the use of the user's webcam)
+          <br/><br/>I worked on many parts of the project in both the front-end and back-end. For one of my tasks of the project, I implemented an open-source eye-tracking library that was used to evaluate if the referee trainee is effectively learning how to referee by actually watching the play correctly and not just guessing (achieved through the use of the user's webcam).
+          <br/><br/>Tech-Stack: Vue.js, Node.js, MongoDB
         </p>
         <img :src="eyeTrackingQuestion" width="400"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <img :src="noWebcamQuestion" height="214" width="400">
@@ -65,8 +66,8 @@
         <br/>
         <p class="divSmallTitles">Movie Rental Website</p>
         <p class="projectDescription">
-          Created a movie rental website for a class project that allowed admins to add movies to the website, and for users to "buy" and "rent" movies as well. <br/>
-          Tech-stack: Javascript, HTML, CSS, PHP, WAMPServer <br/><br/>
+          Created a movie rental website for a class project that allowed admins to add movies to the website and allowed users to "buy" and "rent" those movies. <br/>
+          <br/>Tech-Stack: Javascript, HTML, CSS, PHP, WAMPServer <br/><br/>
           Github Link: Private Repository (unable to share link)<br/><br/>
 
           <img :src="movieRentalImage" height="214" width="400"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
