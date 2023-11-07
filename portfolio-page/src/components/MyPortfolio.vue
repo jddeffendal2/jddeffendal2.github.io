@@ -26,7 +26,7 @@
         <p class="schoolTitle">Monroe Central Jr./Sr. High School &nbsp;&nbsp;&nbsp;&nbsp;(August 2015 - May 2019)</p>
         <div class="educationInfo">
           <p>Valedictorian</p>
-          <p>GPA: </p>
+          <p>GPA: 4.341</p>
           <p>Indiana Core 40 With Academic Honors</p>
         </div>
       </div>
