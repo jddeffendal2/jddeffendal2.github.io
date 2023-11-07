@@ -22,12 +22,12 @@
                     &equiv;
                 </a>
             </div>
-            <a href="#intro" class="active">Introduction</a>
-            <a href="#education">Education</a>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#aboutMe">About Me</a>
-            <a href="#socialLinks">Social Links</a>
+            <a href="#intro" class="active" @click="closeNavbar">Introduction</a>
+            <a href="#education" @click="closeNavbar">Education</a>
+            <a href="#projects" @click="closeNavbar">Projects</a>
+            <a href="#skills" @click="closeNavbar">Skills</a>
+            <a href="#aboutMe" @click="closeNavbar">About Me</a>
+            <a href="#socialLinks" @click="closeNavbar">Social Links</a>
         </div>
     </div>
 </template>
