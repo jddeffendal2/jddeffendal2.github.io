@@ -1,8 +1,8 @@
 <template>
     <div class="nav">
-        <nav class="nav-bar" v-if="!isActive">
+        <div class="nav-bar" >
             <div class="flexStart">
-                <a href="" id="threeLines" @click="openNavbar">
+                <a id="threeLines" @click="openNavbar">
                     &equiv;
                 </a>
             </div>
@@ -15,10 +15,20 @@
                 <a href="#socialLinks">Social Links</a>
             </div>
             <div class="flexEnd"></div>
-        </nav>
-        <nav class="expandedNavbar" v-else>
-            <p> hello</p>
-        </nav>
+        </div>
+        <div class="expandedNavbar" v-if="isActive == true">
+            <div id="flexStartTwo" class="flexStartTwo">
+                <a id="threeLines" @click="closeNavbar">
+                    &equiv;
+                </a>
+            </div>
+            <a href="#intro" class="active">Introduction</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#aboutMe">About Me</a>
+            <a href="#socialLinks">Social Links</a>
+        </div>
     </div>
 </template>
 
@@ -30,6 +40,9 @@ import { ref } from "vue";
 
 const openNavbar = function () {
     isActive.value = true;
+}
+const closeNavbar = function () {
+    isActive.value = false;
 }
 
     
@@ -50,14 +63,15 @@ const openNavbar = function () {
 }
 
 .expandedNavbar {
-    background-color: #0ead83;
+    background-color: #CC998D;
     box-shadow: 0 1px 1px lightgray;
-    height: 100px;
+    height: 300px;
     border-radius: 10px;
     padding: 8px 24px;
     position: fixed;
     top: 0;
     width: 100%;
+    visibility: hidden;
 }
 
 .flexStart { 
@@ -67,6 +81,13 @@ const openNavbar = function () {
     justify-content: flex-start;
 }
 
+.flexStartTwo { 
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
 .flexMiddle {
     align-content: center;
     align-items: center;
@@ -79,7 +100,7 @@ const openNavbar = function () {
     display: flex;
     justify-content: flex-end;
 }
-.nav-bar a {
+.nav-bar a, .expandedNavbar a {
     display: block;
     padding: 8px 16px;
     text-decoration: none;
@@ -96,12 +117,20 @@ a:hover {
     visibility: hidden;
 }
 
+#threeLines:hover {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 680px) {
   .nav-bar a {
     visibility: hidden;
   }
   #threeLines {
     visibility:visible;
+  }
+
+  .expandedNavbar {
+    visibility: visible;
   }
 }
 
